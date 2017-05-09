@@ -1,5 +1,7 @@
 # ovpn
-Openvpn in a Docker container from @ [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/openvpn/) 
+Openvpn in a Docker container
+
+Image from @ [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/openvpn/) 
 
 ## Usage
  - create config files
@@ -14,5 +16,6 @@ Openvpn in a Docker container from @ [kylemanna/openvpn](https://hub.docker.com/
   ```
   docker-compose run --rm openvpn /bin/bash /conf/gen_client.sh
    ```
+  > Cilent file at ./openvpn-data/ovpn/CLIENTNAME.ovpn
  
  
